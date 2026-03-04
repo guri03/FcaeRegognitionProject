@@ -10,7 +10,7 @@ Webcam capture, face detection, live bounding boxes
 Python, OpenCV
 
 # Steps to recreate:
-1. git clone <repo-url>
+1. git clone https://github.com/guri03/FcaeRegognitionProject.git
 2. cd FaceRecognitionProject
 3. python -m venv venv 
 4. venv\Scripts\activate # Windows
