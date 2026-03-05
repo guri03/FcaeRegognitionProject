@@ -42,7 +42,7 @@ python app.py
 
 Press q at any time to close the webcam window.
 
-Future Enhancements
+# Future Enhancements
 1. Face recognition (OpenCV DNN or FaceNet)
 2. Gesture recognition (thumbs up, peace sign, stop gesture)
 3. GUI for selecting modes
