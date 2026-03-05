@@ -1,28 +1,48 @@
 # FaceRecognitionProject
 
-# Description: 
-Real-time face detection using Python and OpenCV
+A real-time computer vision toolkit built with Python, OpenCV, and MediaPipe.  
+Includes two modules:
+- Face detection using Haar Cascades  
+- Hand tracking + real-time finger counting using the MediaPipe Tasks API  
 
-# Features: 
-Webcam capture, face detection, live bounding boxes
+---
 
-# Tech stack: 
-Python, OpenCV
+# Features
+- Live webcam capture  
+- Real-time face detection with bounding boxes  
+- Real-time hand tracking  
+- Accurate left/right hand finger counting  
+- Modular design (choose mode from `app.py`)  
 
-# Steps to recreate:
-1. git clone https://github.com/guri03/FcaeRegognitionProject.git
-2. cd FaceRecognitionProject
-3. python -m venv venv 
-4. venv\Scripts\activate # Windows
-   
+---
+
+# Tech Stack
+- Python  
+- OpenCV  
+- MediaPipe
+
+---
+
+# Setup & Installation
+
+### 1. Clone the repository
+git clone https://github.com/guri03/FcaeRegognitionProject.git
+cd FaceRecognitionProject
+
+# Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\activate   # Windows
+
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the project
 cd src
-python main.py
+python app.py
 
-Press q to quit the webcam window.
+Press q at any time to close the webcam window.
 
-# Future work: 
-Add face recognition, logging, GUI, etc.
+Future Enhancements
+1. Face recognition (OpenCV DNN or FaceNet)
+2. Gesture recognition (thumbs up, peace sign, stop gesture)
+3. GUI for selecting modes
