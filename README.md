@@ -26,23 +26,22 @@ Includes two modules:
 # Setup & Installation
 
 ### 1. Clone the repository
-git clone https://github.com/guri03/FcaeRegognitionProject.git
-cd FaceRecognitionProject
+1. git clone https://github.com/guri03/FcaeRegognitionProject.git
+2. cd FaceRecognitionProject
 
 # Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate   # Windows
+1. python -m venv venv
+2. venv\Scripts\activate   # Windows
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the project
-cd src
-python app.py
+1. cd src
+2. python app.py
 
 Press q at any time to close the webcam window.
 
 # Future Enhancements
 1. Face recognition (OpenCV DNN or FaceNet)
 2. Gesture recognition (thumbs up, peace sign, stop gesture)
-3. GUI for selecting modes
